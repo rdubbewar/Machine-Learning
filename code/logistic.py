@@ -7,10 +7,10 @@ import numpy as np
 
 # Performs classification using Logistic Regression.
 
-FREQ_DIST_FILE = 'C:/Users/rucha/Desktop/Project/train-processed-freqdist.pkl'
-BI_FREQ_DIST_FILE = 'C:/Users/rucha/Desktop/Project/train-processed-freqdist-bi.pkl'
-TRAIN_PROCESSED_FILE = 'C:/Users/rucha/Desktop/Project/train-processed.csv'
-TEST_PROCESSED_FILE = 'C:/Users/rucha/Desktop/Project/test-processed.csv'
+FREQ_DIST_FILE = '../train-processed-freqdist.pkl'
+BI_FREQ_DIST_FILE = '../train-processed-freqdist-bi.pkl'
+TRAIN_PROCESSED_FILE = '../train-processed.csv'
+TEST_PROCESSED_FILE = '../test-processed.csv'
 TRAIN = True
 UNIGRAM_SIZE = 15000
 VOCAB_SIZE = UNIGRAM_SIZE

@@ -2,8 +2,8 @@ import utils
 
 # Classifies a tweet based on the number of positive and negative words in it
 
-TRAIN_PROCESSED_FILE = 'C:/Users/rucha/Desktop/Project/train-processed.csv'
-TEST_PROCESSED_FILE = 'C:/Users/rucha/Desktop/Project/test-processed.csv'
+TRAIN_PROCESSED_FILE = '../train-processed.csv'
+TEST_PROCESSED_FILE = '../test-processed.csv'
 POSITIVE_WORDS_FILE = 'dataset/positive-words.txt'
 NEGATIVE_WORDS_FILE = 'dataset/negative-words.txt'
 TRAIN = True
@@ -25,7 +25,6 @@ def classify(processed_csv, test_file=True, **params):
                     pos_count += 1
                 elif word in negative_words:
                     neg_count += 1
-            # print pos_count, neg_count
             prediction = 1 if pos_count >= neg_count else 0
             if test_file:
                 predictions.append((tweet_id, prediction))

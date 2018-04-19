@@ -6,8 +6,8 @@ import numpy as np
 from utils import save_results_to_csv
 
 
-TRAIN_PROCESSED_FILE = 'C:/Users/rucha/Desktop/Project/train-processed.csv'
-TEST_PROCESSED_FILE = 'C:/Users/rucha/Desktop/Project/test-processed.csv'
+TRAIN_PROCESSED_FILE = '../train-processed.csv'
+TEST_PROCESSED_FILE = '../test-processed.csv'
 USE_BIGRAMS = False
 TRAIN = True
 

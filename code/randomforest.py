@@ -7,10 +7,10 @@ from sklearn.feature_extraction.text import TfidfTransformer
 
 # Performs classification using RandomForest classifier.
 
-FREQ_DIST_FILE = 'C:/Users/rucha/Desktop/twitter-sentiment-analysis-master/train-processed-freqdist.pkl'
-BI_FREQ_DIST_FILE = 'C:/Users/rucha/Desktop/twitter-sentiment-analysis-master/train-processed-freqdist-bi.pkl'
-TRAIN_PROCESSED_FILE = 'C:/Users/rucha/Desktop/twitter-sentiment-analysis-master/train-processed.csv'
-TEST_PROCESSED_FILE = 'C:/Users/rucha/Desktop/twitter-sentiment-analysis-master/test-processed.csv'
+FREQ_DIST_FILE = '../train-processed-freqdist.pkl'
+BI_FREQ_DIST_FILE = '../train-processed-freqdist-bi.pkl'
+TRAIN_PROCESSED_FILE = '../train-processed.csv'
+TEST_PROCESSED_FILE = '../test-processed.csv'
 TRAIN = True
 UNIGRAM_SIZE = 15000
 VOCAB_SIZE = UNIGRAM_SIZE

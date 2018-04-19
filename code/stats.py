@@ -4,12 +4,6 @@ import sys
 from utils import write_status
 from collections import Counter
 
-
-# Takes in a preprocessed CSV file and gives statistics
-# Writes the frequency distribution of words and bigrams
-# to pickle files.
-
-
 def analyze_tweet(tweet):
     result = {}
     result['MENTIONS'] = tweet.count('USER_MENTION')
