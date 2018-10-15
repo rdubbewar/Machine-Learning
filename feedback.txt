@@ -1,6 +1,0 @@
-Overall, the project does a nice job of defining a problem, collecting relevant data, and comparing possible solutions. Suggestions for improvement:
-
-- Why no neutral label?
-- Please see other research papers for how to properly cite references.
-- No error analysis or coefficient analysis.
-- The training data and validation data were not properly described. Were any Cubs tweets manually labeled for validation?
